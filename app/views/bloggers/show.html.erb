@@ -1,0 +1,15 @@
+<div class='center'>
+  <h1><%= @blogger.first_name %> <%= @blogger.last_name %></h1>
+  <p><%= @blogger.bio %></p>
+</div>
+
+
+<div class='col-md-6 col-md-offset-3'>
+  <% @blogger.posts.each do |post| %>
+    <% user = User.find(post.user_id) %>
+    <div class='blog col-md-12'>
+      <p><%= user.first_name %> <%= user.last_name %></p>
+      <%= link_to post.title, post_path(post) %>
+    </div>
+  <% end %>
+</div>

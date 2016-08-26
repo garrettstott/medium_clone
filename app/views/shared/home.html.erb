@@ -1,11 +1,15 @@
-<div class='main-home col-md-8 col-md-offset-2'>
+<div class='main-home col-md-6 col-md-offset-3'>
   <p class='center'>
     Contribute, Read, Learn.
   </p>
 </div>
 
-<div class='col-md-8 col-md-offset-2'>
+<div class='col-md-6 col-md-offset-3'>
   <% @posts.each do |post| %>
-    <%= post.title %>
+    <% user = User.find(post.user_id) %>
+    <div class='blog col-md-12'>
+      <a href="/blogger/<%= user.id %>"><%= user.first_name %> <%= user.last_name %></a>
+      <h3><%= link_to post.title, post_path(post.id) %></h3>
+    </div>
   <% end %>
 </div>

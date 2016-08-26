@@ -3,13 +3,28 @@
 
 // CUSTOM
 
+body {
+  background-color: #ededed;
+}
+
+input[type='text'], textarea {
+  width: 100%;
+}
+
+textarea {
+  height: 200px;
+  resize: none;
+}
+
 .center {
   text-align: center;
 }
 
 .main-home {
   margin-top: 50px;
+  margin-bottom: 50px;
   background: url('main-home');
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 338px;
@@ -18,4 +33,14 @@
 .main-home p {
   margin-top: 50px;
   color: #fff;
+}
+
+.blog {
+  background-color: #fff;
+  min-height: 200px;
+  margin-bottom: 10px;
+}
+
+.comments {
+  margin-top: 50px;
 }
