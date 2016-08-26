@@ -1,0 +1,21 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+// CUSTOM
+
+.center {
+  text-align: center;
+}
+
+.main-home {
+  margin-top: 50px;
+  background: url('main-home');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 338px;
+}
+
+.main-home p {
+  margin-top: 50px;
+  color: #fff;
+}

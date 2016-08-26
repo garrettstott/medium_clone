@@ -1,0 +1,15 @@
+current directory: /Users/aegrescovitae/Documents/DPL/medium_clone/gems/gems/debug_inspector-0.0.2/ext/debug_inspector
+/Users/aegrescovitae/.rbenv/versions/2.3.0/bin/ruby -r ./siteconf20160825-23254-t48kb8.rb extconf.rb
+creating Makefile
+
+current directory: /Users/aegrescovitae/Documents/DPL/medium_clone/gems/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR=" clean
+
+current directory: /Users/aegrescovitae/Documents/DPL/medium_clone/gems/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.bundle
+
+current directory: /Users/aegrescovitae/Documents/DPL/medium_clone/gems/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.bundle ./.gem.20160825-23254-1i06mcw

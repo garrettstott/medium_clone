@@ -1,0 +1,11 @@
+<div class='main-home col-md-8 col-md-offset-2'>
+  <p class='center'>
+    Contribute, Read, Learn.
+  </p>
+</div>
+
+<div class='col-md-8 col-md-offset-2'>
+  <% @posts.each do |post| %>
+    <%= post.title %>
+  <% end %>
+</div>
